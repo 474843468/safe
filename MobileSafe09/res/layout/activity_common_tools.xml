@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itcast="http://schemas.android.com/apk/res/com.itcast.mobilesafe09"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CommonToolsActivity" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="常用工具" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itcast:background="first"
+        itcast:showToggle="false"
+        itcast:title="号码归属地查询" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_common_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:background="last"
+        itcast:showToggle="false"
+        itcast:title="常用号码查询" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_sms_backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itcast:background="first"
+        itcast:showToggle="false"
+        itcast:title="短信备份" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_sms_restore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:background="last"
+        itcast:showToggle="false"
+        itcast:title="短信还原" />
+
+    <ProgressBar
+        android:id="@+id/pb_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_applock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itcast:background="first"
+        itcast:showToggle="false"
+        itcast:title="程序锁管理" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_applock_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:background="last"
+        itcast:title="开启程序锁服务" />
+
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- cacheColorHint是为了解决ListView在滑动的过程中出现的黑色背景 -->
+    <cn.itcast.zhxa09.widget.RefreshListView
+        android:id="@+id/lvNews"
+        android:cacheColorHint="#00000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/rlTop" />
+
+</RelativeLayout>

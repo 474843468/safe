@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/rlNewsImage"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="#9e9e9e"
+        android:padding="1dp" >
+
+        <ImageView
+            android:id="@+id/ivNews"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image_demo" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rlNewsImage"
+        android:maxLines="2"
+        android:text="标题"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvTitle"
+        android:layout_toRightOf="@id/rlNewsImage"
+        android:text="2016-9-14"
+        android:textColor="#ccc"
+        android:textSize="12sp" />
+
+</RelativeLayout>

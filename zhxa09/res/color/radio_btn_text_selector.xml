@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 定义规则  在什么状态下显示什么颜色 -->
+    <item android:state_checked="true" android:color="#F00"></item>
+    <item android:color="#FFF"></item>
+    
+    <!-- 当点击RadioButton的时候，系统会给RadioButton设置为一种状态check的状态 -->
+
+</selector>

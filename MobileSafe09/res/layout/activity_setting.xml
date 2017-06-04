@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itcast="http://schemas.android.com/apk/res/com.itcast.mobilesafe09"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SettingActivity" >
+
+    <TextView
+        style="@style/TitleStyle"
+        android:text="设置中心" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itcast:background="first"
+        itcast:title="自动更新设置" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_srlj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:background="last"
+        itcast:title="骚扰拦截设置" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        itcast:background="first"
+        itcast:title="归属地显示设置" />
+
+    <com.itcast.mobilesafe09.view.SettingItemView
+        android:id="@+id/siv_address_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        itcast:background="last"
+        itcast:showToggle="false"
+        itcast:title="归属地风格设置" />
+
+</LinearLayout>

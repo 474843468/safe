@@ -1,0 +1,164 @@
+# view AndroidManifest.xml #generated:39
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view res/layout/activity_anti_virus.xml #generated:25
+-keep class com.github.lzyzsd.circleprogress.ArcProgress { <init>(...); }
+
+# view AndroidManifest.xml #generated:144
+-keep class com.itcast.mobilesafe09.activity.AddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:184
+-keep class com.itcast.mobilesafe09.activity.AntiVirusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:171
+-keep class com.itcast.mobilesafe09.activity.AppLockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:159
+-keep class com.itcast.mobilesafe09.activity.AppManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.itcast.mobilesafe09.activity.BlackNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:189
+-keep class com.itcast.mobilesafe09.activity.CleanCacheActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:163
+-keep class com.itcast.mobilesafe09.activity.CommonNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:140
+-keep class com.itcast.mobilesafe09.activity.CommonToolsActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:155
+-keep class com.itcast.mobilesafe09.activity.EditBlackNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:175
+-keep class com.itcast.mobilesafe09.activity.EnterPwdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.itcast.mobilesafe09.activity.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:83
+-keep class com.itcast.mobilesafe09.activity.LostFindActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:167
+-keep class com.itcast.mobilesafe09.activity.ProcessManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:112
+-keep class com.itcast.mobilesafe09.activity.SelectContactActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:67
+-keep class com.itcast.mobilesafe09.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:71
+-keep class com.itcast.mobilesafe09.activity.Setup1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.itcast.mobilesafe09.activity.Setup2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:77
+-keep class com.itcast.mobilesafe09.activity.Setup3Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:79
+-keep class com.itcast.mobilesafe09.activity.Setup4Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.itcast.mobilesafe09.activity.Setup5Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:49
+-keep class com.itcast.mobilesafe09.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:180
+-keep class com.itcast.mobilesafe09.activity.TrafficStatActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:43
+-keep class com.itcast.mobilesafe09.global.MyApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.itcast.mobilesafe09.receiver.AdminReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:88
+-keep class com.itcast.mobilesafe09.receiver.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.itcast.mobilesafe09.receiver.SmsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:119
+-keep class com.itcast.mobilesafe09.service.AddressService { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.itcast.mobilesafe09.service.AppLockService { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.itcast.mobilesafe09.service.AutoKillService { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.itcast.mobilesafe09.service.BlackNumberService { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.itcast.mobilesafe09.service.LocationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.itcast.mobilesafe09.service.ProtectService { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:39
+-keep class com.itcast.mobilesafe09.view.FocusedTextView { <init>(...); }
+
+# view res/layout/activity_app_manager.xml #generated:12
+# view res/layout/activity_app_manager.xml #generated:17
+# view res/layout/activity_process_manager.xml #generated:36
+# view res/layout/activity_process_manager.xml #generated:41
+-keep class com.itcast.mobilesafe09.view.ProgressView { <init>(...); }
+
+# view res/layout/activity_common_tools.xml #generated:13
+# view res/layout/activity_common_tools.xml #generated:22
+# view res/layout/activity_common_tools.xml #generated:30
+# view res/layout/activity_common_tools.xml #generated:39
+# view res/layout/activity_common_tools.xml #generated:54
+# view res/layout/activity_common_tools.xml #generated:63
+# view res/layout/activity_process_manager.xml #generated:106
+# view res/layout/activity_process_manager.xml #generated:98
+# view res/layout/activity_setting.xml #generated:13
+# view res/layout/activity_setting.xml #generated:21
+# view res/layout/activity_setting.xml #generated:28
+# view res/layout/activity_setting.xml #generated:36
+-keep class com.itcast.mobilesafe09.view.SettingItemView { <init>(...); }
+
+# view AndroidManifest.xml #generated:194
+-keep class net.youmi.android.AdBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:205
+-keep class net.youmi.android.AdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class net.youmi.android.AdService { <init>(...); }
+
+# view AndroidManifest.xml #generated:214
+-keep class net.youmi.android.spot.SpotAdContentProvider { <init>(...); }
+
+# view res/layout/activity_process_manager.xml #generated:51
+-keep class se.emilsjolander.stickylistheaders.StickyListHeadersListView { <init>(...); }
+
+# onClick res/layout/activity_black_number.xml #generated:23
+-keepclassmembers class * { *** addBlackNumber(...); }
+
+# onClick res/layout/activity_clean_cache.xml #generated:119
+-keepclassmembers class * { *** cleanAll(...); }
+
+# onClick res/layout/activity_process_manager.xml #generated:24
+-keepclassmembers class * { *** clearAll(...); }
+
+# onClick res/layout/activity_home.xml #generated:48
+-keepclassmembers class * { *** goToSetting(...); }
+
+# onClick res/layout/activity_lost_find.xml #generated:70
+-keepclassmembers class * { *** reEnterSetup(...); }
+
+# onClick res/layout/activity_process_manager.xml #generated:129
+-keepclassmembers class * { *** reverseSelect(...); }
+
+# onClick res/layout/activity_process_manager.xml #generated:121
+-keepclassmembers class * { *** selectAll(...); }
+
+# onClick res/layout/activity_setup3.xml #generated:24
+-keepclassmembers class * { *** selectContact(...); }
+
